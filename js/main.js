@@ -1,0 +1,11 @@
+$(function(){
+	$('.aboutMe').click(function(){
+		$('.menu').toggleClass('aboutMe-open')
+	})
+	$('.professionalSkills').click(function(){
+		$('.menu').toggleClass('professionalSkills-open')
+	})
+	$('.personalQualities').click(function(){
+		$('.menu').toggleClass('personalQualities-open')
+	})
+});
